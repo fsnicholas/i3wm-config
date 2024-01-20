@@ -1,0 +1,42 @@
+    ##START THEMING BAR
+    #Theme name : ermanno theme
+
+    # Window colors
+    set $bgcolor    #00897b33
+    set $ibgcolor   #363636
+    set $fws        #00897b80
+    set $barcolor   #00897b0D
+
+
+    # i3 bar colors
+    # variable border background Text
+
+    colors {
+        background #2F2F2F
+        statusline #eeeeee
+        separator  #666666
+
+        # colorclass           border  backgr. text
+        focused_workspace     #a9a9a9 #5f676a #eeeeee
+        active_workspace      #a9a9a9 #5f676a #a9a9a9
+        inactive_workspace    #a9a9a9 #5f676a #a9a9a9
+        urgent_workspace      #a9a9a9 #e82951 #FFFFFF
+        }
+
+    }
+    ##STOP THEMING BAR
+
+    ##START THEMING WM
+    #Theme name : ermanno theme  
+
+    # Window color settings
+    # class                 border  backgr. text    indicator
+    client.focused          #2B6473 #2B6473 #FFA000 #004050
+    client.unfocused        #0040500D #004050 #cccccc #004050
+    client.focused_inactive #00405080 #004050 #cccccc #004050
+    client.placeholder      #004050 #004050 #cccccc #004050
+    client.urgent           #900000 #900000 #ffffff #900000
+
+    client.background       #242424
+
+    ##STOP THEMING WM
